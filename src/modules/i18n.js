@@ -24,7 +24,7 @@ const translations = {
     // ── Stats ────────────────────────────────────────────────
     'idx.stat1.lbl': 'Años de Trayectoria',
     'idx.stat2.lbl': 'Proyectos',
-    'idx.stat3.lbl': 'Certificaciones ISO',
+    'idx.stat3.lbl': 'certificaciones ',
 
     // ── Certs ────────────────────────────────────────────────
     'auth.eyebrow': 'Certificaciones',
