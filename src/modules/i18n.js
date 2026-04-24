@@ -17,7 +17,7 @@ const translations = {
     // ── Hero ─────────────────────────────────────────────────
     'hero.badge': 'Reynosa, Tamaulipas — México',
     'hero.h1': 'Ingeniería,<br/>Construcción y<br/>Mantenimiento.',
-    'hero.sub': 'Servicios especializados de ingeniería, construcción industrial y mantenimiento para los sectores de Oil &amp; Gas, energía, obra pública y manufactura.',
+    'hero.sub': 'Servicios especializados de ingeniería, construcción industrial y mantenimiento para los sectores de Gasoducto, energía, obra pública y manufactura.',
     'hero.cta1': 'Solicitar asesoría',
     'hero.cta2': 'Ver servicios',
 
@@ -125,7 +125,7 @@ const translations = {
     'srv.c2.l2': 'Saneamiento y rehabilitación estructural municipal',
     'srv.c2.l3': 'Gestión de auditorías gubernamentales impecable',
     'srv.c3.title': 'Servicios Especializados',
-    'srv.c3.text': 'Soluciones avanzadas en recubrimientos anticorrosivos, soplado de líneas, y separación de fluidos para el sector de Oil &amp; Gas e industria pesada.',
+    'srv.c3.text': 'Soluciones avanzadas en recubrimientos anticorrosivos, soplado de líneas, y separación de fluidos para el sector de Gasoducto e industria pesada.',
     'srv.c3.l1': 'Blindaje epóxico y control de corrosión severa',
     'srv.c3.l2': 'Pruebas hidrostáticas y purgado presurizado',
     'srv.c3.l3': 'Hot-tapping en líneas operativas',
@@ -288,9 +288,9 @@ const translations = {
     'idx.page.title': 'Industrial Engineering & Construction',
 
     // ── Hero ─────────────────────────────────────────────────
-    'hero.badge': 'Reynosa, Tamaulipas — Northeast Mexico',
+    'hero.badge': 'Reynosa, Tamaulipas — Mexico',
     'hero.h1': 'Engineering,<br/>Construction &amp;<br/>Maintenance.',
-    'hero.sub': 'Specialized engineering services, industrial construction and maintenance for Oil &amp; Gas, energy, public works and manufacturing sectors.',
+    'hero.sub': 'Specialized engineering services, industrial construction and maintenance for Oil & Gas, energy, public works and manufacturing sectors.',
     'hero.cta1': 'Request advice',
     'hero.cta2': 'View services',
 
@@ -398,7 +398,7 @@ const translations = {
     'srv.c2.l2': 'Sanitation and municipal structural rehabilitation',
     'srv.c2.l3': 'Flawless government audit management',
     'srv.c3.title': 'Specialized Services',
-    'srv.c3.text': 'Advanced solutions in anti-corrosive coatings, line blowing, and fluid separation for the Oil &amp; Gas and heavy industry sector.',
+    'srv.c3.text': 'Advanced solutions in anti-corrosive coatings, line blowing, and fluid separation for the Oil & Gas and heavy industry sector.',
     'srv.c3.l1': 'Epoxy shielding and severe corrosion control',
     'srv.c3.l2': 'Hydrostatic testing and pressurized purging',
     'srv.c3.l3': 'Hot-tapping in operational lines',

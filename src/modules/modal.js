@@ -61,7 +61,7 @@ export function initModal() {
 // ─── Service Catalog Data ─────────────────────────────────────
 const SERVICE_DATA = {
   'oil-gas': {
-    title: 'Servicios Oil & Gas',
+    title: 'Servicios Gasoductos',
     description: 'Soluciones integrales para la industria petrolera y de gas, desde la instalación de líneas de proceso hasta el mantenimiento de equipos especializados. Operamos bajo estrictos protocolos de seguridad y estándares nacionales.',
     items: [
       'Instalación y mantenimiento de líneas de proceso y transferencia',
