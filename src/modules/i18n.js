@@ -15,7 +15,7 @@ const translations = {
     'idx.page.title': 'Ingeniería y Construcción Industrial',
 
     // ── Hero ─────────────────────────────────────────────────
-    'hero.badge': 'Reynosa, Tamaulipas — Noreste de México',
+    'hero.badge': 'Reynosa, Tamaulipas — México',
     'hero.h1': 'Ingeniería,<br/>Construcción y<br/>Mantenimiento.',
     'hero.sub': 'Servicios especializados de ingeniería, construcción industrial y mantenimiento para los sectores de Oil &amp; Gas, energía, obra pública y manufactura.',
     'hero.cta1': 'Solicitar asesoría',
