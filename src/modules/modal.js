@@ -10,14 +10,14 @@ export function initModal() {
   // Open modal
   document.querySelectorAll('[data-modal-open]').forEach((btn) => {
     btn.addEventListener('click', () => {
-      const id   = btn.dataset.modalOpen;
+      const id = btn.dataset.modalOpen;
       const data = SERVICE_DATA[id];
       if (!data) return;
 
       // Fill modal content
-      document.getElementById('modal-title').textContent    = data.title;
-      document.getElementById('modal-desc').textContent     = data.description;
-      document.getElementById('modal-img-alt').alt          = data.title;
+      document.getElementById('modal-title').textContent = data.title;
+      document.getElementById('modal-desc').textContent = data.description;
+      document.getElementById('modal-img-alt').alt = data.title;
 
       const listEl = document.getElementById('modal-list');
       listEl.innerHTML = data.items
@@ -62,7 +62,7 @@ export function initModal() {
 const SERVICE_DATA = {
   'oil-gas': {
     title: 'Servicios Oil & Gas',
-    description: 'Soluciones integrales para la industria petrolera y de gas, desde la instalación de líneas de proceso hasta el mantenimiento de equipos especializados. Operamos bajo estrictos protocolos de seguridad y estándares internacionales.',
+    description: 'Soluciones integrales para la industria petrolera y de gas, desde la instalación de líneas de proceso hasta el mantenimiento de equipos especializados. Operamos bajo estrictos protocolos de seguridad y estándares nacionales.',
     items: [
       'Instalación y mantenimiento de líneas de proceso y transferencia',
       'Trabajos de tubing y casing en pozos',
@@ -75,7 +75,7 @@ const SERVICE_DATA = {
   },
   'construccion': {
     title: 'Construcción General e Infraestructura',
-    description: 'Proyectos de construcción civil e industrial con los más altos estándares de calidad y seguridad. Entregamos resultados cumpliendo con normativas técnicas y plazos establecidos.',
+    description: 'Proyectos de construcción civil e industrial con los más altos estándares de calidad y seguridad. Entregamos resultados cumpliendo con normativas internacionales y plazos establecidos.',
     items: [
       'Edificación industrial y comercial',
       'Obra pública: carreteras, drenaje, urbanización',
@@ -88,7 +88,7 @@ const SERVICE_DATA = {
   },
   'industrial': {
     title: 'Mantenimiento Industrial & Maquiladoras',
-    description: 'Servicio de mantenimiento técnico especializado para plantas industriales y maquiladoras. Contamos con personal calificado disponible para asegurar la continuidad operativa de sus procesos.',
+    description: 'Servicio de mantenimiento especializado para plantas industriales y maquiladoras. Contamos con personal calificado disponible para asegurar la continuidad operativa de sus procesos.',
     items: [
       'Mantenimiento total de plantas (TPM)',
       'Mantenimiento predictivo y análisis de vibraciones',

@@ -5,7 +5,6 @@ import { initHeader }     from './modules/header.js';
 import { initAnimations } from './modules/animations.js';
 import { initI18n }       from './modules/i18n.js';
 import { initEmailForms } from './modules/emailForm.js';
-import { initWhatsapp }   from './modules/whatsapp.js';
 
 function initFaq() {
   const faqToggles = document.querySelectorAll('.faq-toggle');
@@ -29,7 +28,7 @@ function initFaq() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
   // 1. Inject shared components
   injectNavbar();
   injectFooter();
@@ -39,7 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeader();
   initFaq();
   initEmailForms();
-  initWhatsapp();
 
   try { initAnimations(); } catch(e) { console.warn('[Proatam] Animations init error:', e); }
 
