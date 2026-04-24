@@ -23,7 +23,7 @@ const translations = {
 
     // ── Stats ────────────────────────────────────────────────
     'idx.stat1.lbl': 'Años de Trayectoria',
-    'idx.stat2.lbl': 'Proyectos Ejecutados',
+    'idx.stat2.lbl': 'Proyectos',
     'idx.stat3.lbl': 'Certificaciones ISO',
 
     // ── Certs ────────────────────────────────────────────────
@@ -45,7 +45,7 @@ const translations = {
     'idx.s3.num': 'Cobertura nacional',
     'idx.s3.lbl': 'Proyectos en distintas regiones del país',
     'idx.s4.num': 'Especialización',
-    'idx.stat.proj': 'Proyectos Ejecutados',
+    'idx.stat.proj': 'Proyectos',
     'idx.s4.tit': 'Estructuras, obra civil y soluciones industriales',
     'idx.s4.p': 'Diseño y ejecución bajo los más altos estándares de la industria.',
 
