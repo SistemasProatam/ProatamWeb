@@ -51,7 +51,7 @@ const translations = {
 
     // ── Por qué Proatam ──────────────────────────────────────
     'idx.why.eyebrow': 'Por qué Proatam',
-    'idx.why.tit': 'Ejecución sin compromisos.',
+    'idx.why.tit': 'Ejecución con compromiso.',
     'idx.why.sub': 'La ingeniería moderna no permite tolerancia al error. Nuestros protocolos operativos están diseñados para resguardar la inversión, garantizar la seguridad e impulsar el resultado estructural.',
     'idx.why.tagline': 'Ingeniería de alta precisión para desafíos críticos.',
     'idx.why.1t': 'Despliegue Responsivo',
@@ -324,7 +324,7 @@ const translations = {
 
     // ── Por qué Proatam ──────────────────────────────────────
     'idx.why.eyebrow': 'Why Proatam',
-    'idx.why.tit': 'Execution without compromise.',
+    'idx.why.tit': 'Execution with compromise.',
     'idx.why.sub': 'Modern engineering allows no tolerance for error. Our operational protocols are designed to protect investment, guarantee safety and drive structural results.',
     'idx.why.tagline': 'High-precision engineering for critical challenges.',
     'idx.why.1t': 'Responsive Deployment',
