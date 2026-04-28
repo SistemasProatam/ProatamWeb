@@ -5,6 +5,7 @@ import { initHeader }     from './modules/header.js';
 import { initAnimations } from './modules/animations.js';
 import { initI18n }       from './modules/i18n.js';
 import { initEmailForms } from './modules/emailForm.js';
+import { initEmailHandler } from './modules/emailHandler.js';
 
 function initFaq() {
   const faqToggles = document.querySelectorAll('.faq-toggle');
@@ -38,6 +39,7 @@ function initFaq() {
   initHeader();
   initFaq();
   initEmailForms();
+  initEmailHandler();
 
   try { initAnimations(); } catch(e) { console.warn('[Proatam] Animations init error:', e); }
 
