@@ -435,3 +435,20 @@
     background-position: 200% 0;
   }
 }
+/* ─── Moved from inline HTML ───────────────────────────── */
+@layer base {
+  html {
+    opacity: 0;
+    transition: opacity 0.25s ease-out;
+  }
+
+  html.loaded {
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  .hero-gradient {
+    background: linear-gradient(135deg, rgba(17, 53, 87, 0.92) 0%, rgba(10, 10, 15, 0.85) 50%, rgba(64, 118, 86, 0.75) 100%);
+  }
+}

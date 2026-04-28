@@ -37,47 +37,14 @@
     href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
     rel="stylesheet" />
   <script type="module" src="/src/main.js"></script>
-  <style>
-    html {
-      opacity: 0;
-      transition: opacity 0.25s ease-out;
-    }
-
-    html.loaded {
-      opacity: 1;
-    }
-
-    .hero-gradient {
-      background: linear-gradient(135deg, rgba(17, 53, 87, 0.92) 0%, rgba(10, 10, 15, 0.85) 50%, rgba(64, 118, 86, 0.75) 100%);
-    }
-
-    .bento-hover:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
-    }
-
-    @keyframes pulse-dot {
-
-      0%,
-      100% {
-        opacity: 1
-      }
-
-      50% {
-        opacity: .4
-      }
-    }
-  </style>
 </head>
 
 <body class="font-body bg-[#fafafa] text-brand-dark overflow-x-hidden">
 
-  <!-- HEADER — injected by navbar.js -->
+  <!-- HEADER -->
   <header id="site-header" class="fixed w-full z-50 transition-all duration-300"></header>
 
-  <!-- ══════════════════════════════════════════════════════════ -->
-  <!--  1. HERO                                                   -->
-  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- HERO -->
   <section id="hero" class="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
     <div class="absolute inset-0 z-0">
       <img src="/src/assets/images/gas_hero.jpeg" alt="Proatam Operational Site"
@@ -143,9 +110,7 @@
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════════ -->
-  <!--  2. CERTIFICATIONS — en color                              -->
-  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- CERTIFICATIONS -->
   <section class="py-16 bg-white border-b border-gray-100">
     <div class="max-w-7xl mx-auto px-6 lg:px-10 w-full">
       <div class="text-center mb-12" data-reveal="fade-up">
@@ -187,9 +152,7 @@
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════════ -->
-  <!--  3. IMPACTO ANALÍTICO — dark background con imagen        -->
-  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- IMPACTO ANALÍTICO -->
   <section class="py-24 lg:py-32 relative overflow-hidden">
     <!-- Background -->
     <div class="absolute inset-0 z-0">
@@ -222,7 +185,7 @@
         <!-- Bento Metrics Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
 
-          <!-- Metric 1: Large — con foto -->
+          <!-- Metric 1: Large -->
           <div
             class="lg:col-span-2 lg:row-span-2 relative overflow-hidden border border-white/10 group bento-hover transition-all duration-500 bg-[#f9f9f9]"
             data-reveal="scale-up">
@@ -303,9 +266,7 @@
       </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════════ -->
-  <!--  4. EJECUCIÓN CON COMPROMISOS — con imagen lateral        -->
-  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- EJECUCIÓN CON COMPROMISOS -->
   <section class="relative overflow-hidden">
     <div class="grid grid-cols-1 lg:grid-cols-2 min-h-[700px]">
 
@@ -408,9 +369,7 @@
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════════ -->
-  <!--  5. CATÁLOGO OPERATIVO                                    -->
-  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- CATÁLOGO OPERATIVO -->
   <section class="py-24 lg:py-32 bg-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-10">
 
@@ -535,9 +494,7 @@
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════════ -->
-  <!--  6. CONTACT INFO STRIP — teléfono, email, horarios        -->
-  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- CONTACT INFO STRIP -->
   <section class="bg-brand-green py-12">
     <div class="max-w-7xl mx-auto px-6 lg:px-10">
       <div class="flex flex-wrap justify-center gap-x-16 gap-y-8 text-white">
@@ -596,9 +553,7 @@
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════════ -->
-  <!--  7. CONTACT FORM — con imagen de fondo                    -->
-  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- CONTACT FORM -->
   <section class="relative py-24 lg:py-32 overflow-hidden">
     <!-- Background -->
     <div class="absolute inset-0 z-0">
@@ -728,7 +683,7 @@
     </div>
   </section>
 
-  <!-- FOOTER — injected by footer.js -->
+  <!-- FOOTER -->
   <footer id="site-footer"
     class="bg-brand-navy border-t border-white/10 py-12 lg:py-16 relative overflow-hidden text-left"></footer>
 
