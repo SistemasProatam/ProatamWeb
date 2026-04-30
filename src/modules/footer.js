@@ -82,6 +82,11 @@ export function injectFooter() {
       <!-- Bottom Bar -->
       <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p class="font-body text-[10px] text-white/40 tracking-[0.2em] uppercase font-bold" data-i18n="idx.foot.cpy">© 2026 Proatam. Todos los Derechos Reservados.</p>
+        <a href="https://proatam369.com" target="_blank" rel="noopener noreferrer" 
+           class="font-body text-[10px] text-white/20 hover:text-white/40 transition-all duration-300 tracking-[0.2em] uppercase font-bold"
+           data-i18n="idx.foot.designed">
+          Designed by Proatam369
+        </a>
       </div>
     </div>
   `;

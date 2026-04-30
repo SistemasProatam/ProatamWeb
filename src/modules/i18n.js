@@ -105,6 +105,7 @@ const translations = {
 
     // ── Footer ───────────────────────────────────────────────
     'idx.foot.cpy': '© 2026 Proatam. Todos los Derechos Reservados.',
+    'idx.foot.designed': 'Diseñado por Proatam369',
     'idx.footer.bio': 'Ingeniería industrial de precisión, desarrollo de infraestructura crítica y mantenimiento especializado para sectores de alta exigencia operativa y tolerancia cero a fallos.',
     'idx.footer.nav_title': 'Corporativo',
     'idx.footer.norms_title': 'Normatividad',
@@ -378,6 +379,7 @@ const translations = {
 
     // ── Footer ───────────────────────────────────────────────
     'idx.foot.cpy': '© 2026 Proatam. All Rights Reserved.',
+    'idx.foot.designed': 'Designed by Proatam369',
     'idx.footer.bio': 'Precision industrial engineering, development of critical infrastructure and specialized maintenance for sectors with high operational demand and zero tolerance for failure.',
     'idx.footer.nav_title': 'Corporate',
     'idx.footer.norms_title': 'Regulatory Compliance',
