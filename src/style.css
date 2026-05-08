@@ -14,13 +14,17 @@
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   body {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
     font-family: 'Inter', sans-serif;
     background-color: #ffffff;
     color: #0A0A0F;
-    overflow-x: hidden;
   }
 
   h1,
